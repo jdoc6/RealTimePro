@@ -1,0 +1,89 @@
+body {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Merriweather', serif;
+}
+
+.emphasize-orange {
+    color: #F28846;
+}
+
+.hero-landing {
+    text-align: center;
+    color: white;
+    padding: 300px 1rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient( rgba(20, 20, 20, .5),
+    rgba(20, 20, 20, .5)), url(../img/skull-dark_reduced.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-sub-header {
+    font-weight: 300;
+}
+
+@media (min-width: 310px) {
+    .hero-landing {
+        background-image: linear-gradient( rgba(20, 20, 20, .4),
+        rgba(20, 20, 20, .4)), url(../img/skull-dark_reduced.jpg);
+        padding: 200px 1rem;
+        margin-bottom: 2rem;
+    }
+    .hero-header {
+        font-size: 30px;
+    }
+    .hero-sub-header {
+        font-size: 20px;
+    }
+    .hero-cta-button {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-landing {
+        background-image: linear-gradient( rgba(20, 20, 20, .4),
+        rgba(20, 20, 20, .4)), url(../img/skull-dark_reduced.jpg);
+    }
+    .hero-header {
+        font-size: 70px;
+    }
+    .hero-sub-header {
+        font-size: 2em;
+    }
+    .hero-cta-button {
+        margin-top: 20px;
+        width: 200px;
+        height: 70px;
+    }
+
+}
+
+/* FIRST SUPPORTING SECTION 
+.supporting-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.right-column-text {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+@media (min-width: 310px) {
+    .supporting-section {
+        text-align: center;
+    }
+    .right-column-text {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .supporting-section {
+        text-align: left;
+    }
+    .right-column-text {
+        margin-top: 0px;
+    }
+}*/
